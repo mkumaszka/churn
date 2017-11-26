@@ -5,7 +5,7 @@ import Config.ConfigReader as config
 
 class Process:
 
-    dict_ = config.Config['BUCKETS']['user_logs']
+    dict_ = config.config['BUCKETS']['user_logs']
 
     def process_user_logs(self,data):
         data = self.create_buckets(data)
