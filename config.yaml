@@ -1,6 +1,5 @@
 DATA:
   data_folder: 'C:\projects\own_churn\DATA'
-
 BUCKETS:
   user_logs: {'bucket_25': [0, 10, 100, 300, 500],
              'bucket_50': [0, 10, 100, 300],
